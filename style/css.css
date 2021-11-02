@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+header
+{
+	position: absolute;
+	width: 100%;
+	background-color: black;
+}
+.logo 
+{
+	margin: 10px 20px 5px 20px;
+	float: left;
+}
+
+.menu
+{
+	display: flex;
+	
+}
+.menu a
+{
+	font-family:"Dealerplate California";
+	font-size:23px;
+	color:white;
+	text-decoration: none;
+	margin: 0 1.5rem;
+}
+.menu a :hover
+{
+	color:#A5B600;
+}
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 450px;
+  background: #f1f1f1;
+}
+
+form.example button
+{
+  float: left;
+  width: 45px;
+  height: 47px;
+  padding: 10px;
+  background: grey;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover 
+{
+  background: #4D4B4B;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#video_background {
+
+position: absolute;
+
+bottom: 0px;
+
+right: 0px;
+	
+top: 120px;
+	
+left: 0px;
+
+min-width: 100%;
+
+width: 100%;
+
+z-index: -1000;
+
+overflow: hidden;
+
+}
+.list-menu
+{
+	display: flex;
+	flex-direction: column;
+}
+.list-menu a
+{
+	color: #5C6D90;
+	text-decoration: none;
+}
+.nav-mobile
+{
+	display: none;
+}
+.Close
+{
+	display: none;
+}
+.footer
+{
+	margin-top: 950px;
+}
